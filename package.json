@@ -47,8 +47,7 @@
   "homepage": "https://github.com/nileshpatel17/ng-multiselect-dropdown#readme",
   "peerDependencies": {},
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1102.19",
-    "@angular-devkit/schematics": "^16.1.6",
+    "@angular-devkit/build-angular": "~0.1100.7",
     "@angular/animations": "11.2.14",
     "@angular/cli": "^11.2.19",
     "@angular/common": "11.2.14",
