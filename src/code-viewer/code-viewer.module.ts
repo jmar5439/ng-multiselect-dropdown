@@ -3,19 +3,15 @@ import {CommonModule} from '@angular/common';
 import {CodeViewerComponent} from './code-viewer';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [
-    CodeViewerComponent
-  ],
-  exports: [CodeViewerComponent]
+  imports: [CommonModule],
+  declarations: [CodeViewerComponent],
+  exports: [CodeViewerComponent],
 })
 export class ShCodeViewer {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<ShCodeViewer> {
     return {
       ngModule: ShCodeViewer,
-      providers: []
+      providers: [],
     };
   }
 }
