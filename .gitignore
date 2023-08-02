@@ -28,6 +28,7 @@ dist-lib.tgz
 .vscode
 
 # misc
+/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage
