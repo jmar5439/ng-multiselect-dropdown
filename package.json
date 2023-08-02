@@ -3,7 +3,7 @@
   "version": "13.4.0",
   "private": true,
   "description": "Angular Multi-Select Dropdown",
-  "author": "Nilesh Patel",
+  "author": "Nilesh Patel Jordi Marti",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
