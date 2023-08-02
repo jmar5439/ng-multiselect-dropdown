@@ -8,6 +8,7 @@
 [![downloads](https://img.shields.io/npm/dm/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown)
 
 Angular multiselect dropdown component for web applications. Easy to integrate and use. It can be bind to any custom data source.
+This is a upgraded Angular 13 version of ng-multiselect-dropdown-angular.
 
 # [Demo](https://nileshpatel17.github.io/ng-multiselect-dropdown/)
 
