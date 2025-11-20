@@ -1,5 +1,5 @@
 import { UntypedFormBuilder, UntypedFormGroup } from '@angular/forms';
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { IDropdownSettings } from '../../../ng-multiselect-dropdown/src';
 
 @Component({
@@ -7,6 +7,7 @@ import { IDropdownSettings } from '../../../ng-multiselect-dropdown/src';
   templateUrl: './multiple-demo.html'
 })
 export class MultipleDemoComponent implements OnInit {
+  fb = inject(UntypedFormBuilder); 
   myForm: UntypedFormGroup;
   disabled = false;
   ShowFilter = true;
@@ -108,7 +109,7 @@ export class MultipleDemoComponent implements OnInit {
     }
 `;
 
-  constructor(private fb: UntypedFormBuilder) {}
+  
 
   ngOnInit() {
     this.cities = [
