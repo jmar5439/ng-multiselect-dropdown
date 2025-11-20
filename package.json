@@ -62,7 +62,6 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^12.11.1",
     "angular-cli-ghpages": "^0.6.0-rc.2",
-    "angular2-markdown": "^2.2.3",
     "codelyzer": "^5.1.2",
     "copyfiles": "^2.0.0",
     "core-js": "^3.2.1",
@@ -90,6 +89,8 @@
     "zone.js": "~0.13.3"
   },
   "dependencies": {
+    "marked": "^16.4.2",
+    "ngx-markdown": "^20.1.0",
     "tslib": "^2.0.0"
   }
 }
