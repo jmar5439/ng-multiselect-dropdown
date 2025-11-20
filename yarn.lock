@@ -7519,7 +7519,7 @@ ngx-bootstrap@^5.1.1:
   resolved "https://registry.npmjs.org/ngx-bootstrap/-/ngx-bootstrap-5.6.2.tgz"
   integrity sha512-6YHXtdXkGH3w0NQoaUgNYAcrj064Lv5RTO284ha/hvpNTrh55yQz2cVh0VvwBk3MjyY2tdmLH4SuCJDszYdYiw==
 
-ngx-markdown@^17.1.1:
+ngx-markdown@^17.2.1:
   version "17.2.1"
   resolved "https://registry.npmjs.org/ngx-markdown/-/ngx-markdown-17.2.1.tgz"
   integrity sha512-TKzxP2R2uTGpVFx0OZDFC/BpNJYUabG2z59/9/PXrTP3R7xTNFuvGQZSNitAQFD7nI3Uko87Ra3GJrbaHdjeBA==
