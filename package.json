@@ -14,7 +14,7 @@
     "test": "jest --watch",
     "test:ci": "jest --runInBand",
     "test:coverage": "jest --coverage",
-    "build:prod": "ng build --prod --base-href https://nileshpatel17.github.io/ng-multiselect-dropdown/",
+    "build:prod": "ng build --configuration production --base-href https://nileshpatel17.github.io/ng-multiselect-dropdown/",
     "clear:lib": "rimraf dist-lib",
     "postcopyfiles": "copyfiles -u 1 ./dist-lib/**/*.* node_modules/ng-multiselect-dropdown",
     "copyfiles": "mkdir dist-lib/themes && copyfiles ng-multiselect-dropdown.theme.scss dist-lib/themes",
