@@ -1,9 +1,9 @@
 {
-  "name": "ng-multiselect-dropdown-angular-13",
-  "version": "13.5.0",
+  "name": "ng-multiselect-dropdown-angular",
+  "version": "17.0.0",
   "private": false,
-  "description": "Angular Multi-Select Dropdown",
-  "author": "Nilesh Patel Jordi Marti",
+  "description": "Angular Multi-Select Dropdown upgraded to Angular 17",
+  "author": "Jordi Marti",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
